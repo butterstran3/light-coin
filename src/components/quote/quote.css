@@ -1,0 +1,36 @@
+.quote_container {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.quote {
+    color: #AAAAAA;
+    font-style: italic;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .quote {
+        font-size: 3rem;
+    }
+
+    .quote_container {
+        padding: 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .quote {
+        font-size: 3rem;
+    }
+
+    .quote_container {
+        padding: 0 1.5rem;
+    }
+}

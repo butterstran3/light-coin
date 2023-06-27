@@ -6,7 +6,6 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    max-width: 1800px;
 }
 
 .front-image_container {
